@@ -1,4 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Custom React Hooks Data Form
+
+### This document serves as a consolidation of some of the items that could be helpful to understand this project.
+
+This project was bootstrapped with [create-react-app](https://github.com/facebook/create-react-app).
+
+- __For__ ,
+- __who__ ,
+- __the__ Custom React Hook Data Form,
+- __is an__ .
+
+
+# Installation:
+
+# Demo:
+* a short demo for the current version of the [REACT-HOOKS-DATA-FORM 0.1.0](https://codepen.io/roryfn/pen/yrXore?editors=0010).
+
+# Collaborators:
+- @personA
+- @personB
+
 
 ## Available Scripts
 
