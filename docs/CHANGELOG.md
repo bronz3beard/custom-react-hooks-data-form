@@ -11,9 +11,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - __Fixed__ for any bug fixes.
 - __Security__ in case of vulnerabilities.
 
-## [0.1.0] - 03-06-2019
+## [0.1.0] - 05-07-2019
 ###Changed
-- 
+- from form to table I will eventually add react-route-dom and have linking pages
+- datatable has been broken up into smaller components
+
+### Added
+- new components to work on changing to a hook style compnonent
+- Table component only sorts one way at the moment
+- css style and responsive styles
+- usewindowwidth hook
 
 ### Added
 - Ability to test components

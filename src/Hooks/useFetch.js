@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const useFetch = (url) => {
     //[stateVariable, updateStateFunction] = aka, set.State
     const [error, setError] = useState(null);
-    const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
+    const [data, setData] = useState(null);
 
     useEffect(() => {//Get Request
         (async () => {
@@ -12,13 +12,13 @@ const useFetch = (url) => {
                 const response = await fetch(url);
                 if (response.ok) {
                     const data = await response.json();
-                    const [item] = data.results;
-                    setData(item);
+                    //const [item] = data.results;
+                    setData(data);
                 } else {
                     setError(new Error(response.statusText));
                 }
-            } catch (eventError) {
-                setError(eventError);
+            } catch (error) {
+                setError(error);
             }
             setLoading(false);
         })();

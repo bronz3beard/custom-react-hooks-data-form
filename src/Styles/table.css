@@ -1,0 +1,170 @@
+body {
+    font-family: Helvetica, sans-serif !important;
+}
+
+.error {
+    position: fixed;
+    top: 5%;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    color: black;
+}
+
+.SearchContainer {
+    top: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.dataTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+.dataTable tbody {
+    width: 100%;
+}
+.header-tr .body {
+    text-align: center;
+    display: table-cell;
+    cursor: pointer;
+}
+    .dataTable td {
+        border-bottom: 1px solid grey;
+        padding: 8px;
+    }
+    .dataTable .header-tr {
+        width: 100%;
+        text-align: center;
+    }
+    .dataTable tr:nth-child(1n+2) {
+        background-color: #dbd9d9;
+    }
+    #treeRow {
+        background-color: darkred;
+    }
+    .dataTable tr:hover {
+        width: 100%;
+        background-color: #a09d9d;
+    }
+    .dataTable th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 0px;
+        text-align: left;
+        color: black;
+    }
+.expand {
+    cursor: pointer;
+}
+#Icon { /*added for padding between icon and record type*/
+    float: left;
+    padding: 5px;
+}
+.filterForm input[type=text] {
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 4px 8px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+    .filterForm input[type=text]:focus {
+        width: 60.2%;
+    }
+
+.suggestion {
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    border-width: thin;
+    font-size: 12px;
+}
+
+.SearchForm {
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 70%;
+}
+#search-submit {
+    margin-right: 1%;
+}
+#checkBox {
+        margin-left: 6%;
+        margin-top: 1%;
+}
+#table-filter {
+    margin-left: 5.6%;
+    padding: 0%;
+}
+.pagination-wrapper {
+    text-align: center;
+    cursor: pointer;
+}
+ul.pagination {
+    display: inline-block;
+    padding: 2%;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination li:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination li:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul.pagination li.active {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+ul.pagination li:hover:not(.active) {
+    background-color: #ddd;
+}
+footer {
+    width: 100%;
+    margin: 1em 0 0;
+    font-size: 0.75em;
+    line-height: 1;
+    text-transform: uppercase;
+    background: #2c2c2c;
+}
+footer button {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 1.5em;
+    border: none;
+    color: rgb(0, 0, 0);  
+    background: rgb(129, 129, 129);
+    cursor: pointer;
+} footer button:hover {
+    color: blue;
+}
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+    div {
+        
+    }
+}

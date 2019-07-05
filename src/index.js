@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 
+//Styles
+import "./Styles/preloader.css";
+import "./Styles/table.css";
+import "./Styles/responsive-table.css";
 import './Styles/form.css';
 //Components
 import App from './App';
